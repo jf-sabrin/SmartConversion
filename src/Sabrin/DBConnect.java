@@ -36,8 +36,8 @@ public class DBConnect {
                 String tablePass = rs.getString(4);
 
                 if (username.equals(tableUserName) && password.equals(tablePass)){
-                    JOptionPane.showMessageDialog(null,"Welldome !! .");
                     flag = 1;
+                    new Frame1();
                     break;
                 }
             }
